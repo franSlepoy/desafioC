@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blockly - Desafío Digital House</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blockly/9.2.1/blockly.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blockly/9.2.1/javascript_compressed.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Blockly - Desafío Digital House</h1>
+
+    <div id="blocklyDiv" style="height: 500px; width: 100%"></div>
+
+    <button id="runCode">Ejecutar Código</button>
+
+    <pre id="output"></pre>
+
+    <!-- IMPORTANTE: Primero definimos los bloques, luego los generadores y por último inicializamos Blockly -->
+    <script src="blocks.js"></script>
+    <script src="generators.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
