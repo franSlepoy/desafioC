@@ -1,4 +1,4 @@
-// 🔹 DEFINIR BLOQUES PERSONALIZADOS EN BLOCKLY
+// DEFINIR BLOQUES PERSONALIZADOS EN BLOCKLY
 Blockly.defineBlocksWithJsonArray([
     {
         "type": "saludar",

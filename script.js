@@ -11,7 +11,7 @@ function inicializarBlockly() {
         `
     });
 
-    // ✅ BOTÓN PARA EJECUTAR EL CÓDIGO
+    //  BOTÓN PARA EJECUTAR EL CÓDIGO
     document.getElementById('runCode').addEventListener('click', function() {
         var code = Blockly.JavaScript.workspaceToCode(workspace);
         document.getElementById('output').textContent = code;
@@ -23,5 +23,5 @@ function inicializarBlockly() {
     });
 }
 
-// ✅ ESPERAR A QUE SE CARGUE LA PÁGINA ANTES DE INICIAR BLOCKLY
+// ESPERAR A QUE SE CARGUE LA PÁGINA ANTES DE INICIAR BLOCKLY
 window.onload = inicializarBlockly;
