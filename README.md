@@ -14,5 +14,5 @@ Este proyecto utiliza **Google Blockly** para permitir que los usuarios creen c�
 
 ## 🛠 Instalación:
 ```sh
-https://github.com/franSlepoy/desafioC.git
+git clone https://github.com/franSlepoy/desafioC.git
 cd desafioC
